@@ -1,0 +1,335 @@
+
+<!--Nicolas Roberts
+    11/11/21
+    Portfolio Website-->
+
+<!doctype html>
+
+<html lang="en">
+    <head>
+
+        <!--Boiler plate HTML 5 info-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Nico's Portfolio Website</title>
+        <meta name="description" content="A self-built website to display and journal educational accomplishments">
+        <meta name="author" content="Nicolas Roberts">
+
+        <meta property="og:title" content="Nico's Portfolio Website">
+        <meta property="og:type" content="website">
+
+        <!--Change or delete later-->
+        <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+        <meta property="og:description" content="A simple HTML5 Template for new projects.">
+        <meta property="og:image" content="image.png">
+
+        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+        <!-- CSS info here -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/aja/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/aja/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdFgVK/Kvc=" crossorigin="anonymous"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Scripts -->
+        <script src="https://kit.fontawesome.com/04838c33e3.js" crossorigin="anonymous"></script>
+        
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/NicoPort.PNG" alt="Java coding import statement picture." class="javaLogo">
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">My Resume</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Nicolas Roberts</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">Computer Science & Systems Graduate</p>
+            <img src="img/Nico.JPG" alt="a pricture of Nicolas Roberts" class="intro__img">
+        </section>
+
+        <!-- My resume -->
+        <section class="my-resume" id="resume">
+            <h2 class="section__title section__title--resume">Resume</h2>
+            <div class="resume">
+
+                <!-- <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula justo ut porta accumsan. Sed vestibulum rutrum aliquet. Curabitur placerat iaculis nisl, eu interdum sem aliquet ac. Aliquam lacinia condimentum risus, ac fermentum ligula viverra quis. In felis tellus, viverra a nibh quis, porta laoreet tortor. </p>
+
+                </div> 
+
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula justo ut porta accumsan. Sed vestibulum rutrum aliquet. Curabitur placerat iaculis nisl, eu interdum sem aliquet ac. Aliquam lacinia condimentum risus, ac fermentum ligula viverra quis. In felis tellus, viverra a nibh quis, porta laoreet tortor. </p>
+
+                </div> 
+
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula justo ut porta accumsan. Sed vestibulum rutrum aliquet. Curabitur placerat iaculis nisl, eu interdum sem aliquet ac. Aliquam lacinia condimentum risus, ac fermentum ligula viverra quis. In felis tellus, viverra a nibh quis, porta laoreet tortor. </p>
+
+                </div>  -->
+
+            </div> <!-- / resume -->
+
+            <a href="img/NicoRobertsResume.pdf" class="btn" target="_blank">View Resume</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">CSS graduate based in Washington</p>
+
+            <div class="about-me__body">
+                <p>Hello, and welcome to my portfolio! I am Nicolas (Nico) Roberts, a Summer 2021 graduate from the University of Washington Tacoma with a B.S. in Computer Science & Systems and a minor in Mathematics.</p>
+                <p>In addition to my passion for software development and solving technological problems, I enjoy gaming, playing the cello, and fishing!</p>
+            </div>
+
+            <img src="img/NicoGrad.JPG" alt="Nico Roberts picture" class="about-me__img">
+           
+        </section>
+
+        <!-- pics -->
+        <section class="about-me__pics" id="pics">
+            <div id="about-me__celloFish">
+                <img src="img/NicoCello.JPG" alt="Nico Roberts cello picture" class="cello">
+                <img src="img/NicoFish.JPG" alt="Nico Roberts fishpicture" class="fish">
+            </div>
+        </section>
+        
+        
+            
+
+        
+
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Selections of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <div class="card">
+                    <div>
+                        <a href="https://nicoroberts.github.io/TCSS491proj/" target="_blank">
+                        <img src="img/CastToTheShadows.gif" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Cast To The Shadows
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>JavaScript, HTML, CSS, Aesprite, GitHub</strong></p>
+                    <p class="cardText">Group project for Computational Worlds class. Personal responsibilities included: coding enemy AI/collision handling, game
+                        movement, creating all-original graphics and sprites for banshee and skeleton, performing cello and
+                        composing original music integrated into the game.
+                    </p>
+
+                    <a href="https://nicoroberts.github.io/TCSS491proj/" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                </div>
+
+                <!-- Portfolio item 2 -->
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/NicoRoberts/Team8TCSS450/" target="_blank">
+                        <img src="img/Android.gif" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Android Message/Weather App
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>Java, Android Studio, JSON, PostgreSQL, Heroku, XML, GitHub</strong></p>
+                    <p class="cardText">Group project for Mobile Applications class. Personal responsibilities: Android Studio/Java 
+                        development of messaging system, PostgreSQL database, and building JSON web endpoints to send queries.
+                    </p>
+
+                    <a href="https://github.com/NicoRoberts/Team8TCSS450/" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                    
+                </div>
+
+                <!-- Portfolio item 3 -->
+                <div class="card">
+                    <div>
+                        <a href="https://nicoroberts.github.io/Crustables/" target="_blank">
+                        <img src="img/EarthDefenders.gif" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Earth Defenders
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>JavaScript, HTML, CSS, GitHub</strong></p>
+                    <p class="cardText">NASA Space Apps Seattle Hackathon 2019 Competition. Three other developers and I created a prototype text-adventure, space-themed game for young kids to raise awareness for the growing problem of space debris. Final product completed and presented in a high-pressure environment in under 24 hours.  Personal responsibilities: front end 
+                        development using HTML/CSS and version control using GitHub.
+                    </p>
+
+                    <a href="https://nicoroberts.github.io/Crustables/" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                    
+                </div>
+
+                <!-- Portfolio item 4 -->
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/NicoRoberts/RD/tree/main/nlrobert-raceday" target="_blank">
+                        <img src="img/RaceDay.gif" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Race Day
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>Java, JavaSwing</strong></p>
+                    <p class="cardText">Programming Practicum class project displaying predetermined races from custom .rce files. Loading race files, observer design pattern with listeners on the backend, control panel, and GUI are all features of this individual project.
+                    </p>
+
+                    <a href="https://github.com/NicoRoberts/RD/tree/main/nlrobert-raceday" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                </div>
+
+                <!-- Portfolio item 5 -->
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/NicoRoberts/MovieSentimentAnalysis" target="_blank">
+                        <img src="img/NLP.PNG" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Suicide Squad Sentiment Analysis
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>Python, Tweepy, Keras API</strong></p>
+                    <p class="cardText">Natural Language Processing class individual project. Performed Sentiment Analysis on 50 of the most recent tweets about the movie using Twitter's tweepy API. Two models used to classify feedback as POSITIVE or NEGATIVE with a certainty percentage using the Bag of Words model and the Convolutional Neural Network model.</p>
+
+                    <a href="https://github.com/NicoRoberts/MovieSentimentAnalysis" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                </div>
+
+                <!-- Portfolio item 6 -->
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/NicoRoberts/SherlockHolmesHMM" target="_blank">
+                        <img src="img/Sherlock.PNG" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Sherlock Holmes Trigram Markov Model
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>Python</strong></p>
+                    <p class="cardText">Artificial Intelligence class individual project. Fitted a coded-from-scratch, tri-gram Markov Model to multiple Sherlock Holmes novels
+                        (words), then used to generate a new Sherlock Holmes themed story.</p>
+                    <a href="https://github.com/NicoRoberts/SherlockHolmesHMM" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                </div>
+
+                <!-- Portfolio item 7 -->
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/NicoRoberts/Obstruction" target="_blank">
+                        <img src="img/Obstruction.PNG" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Obstruction
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>Python</strong></p>
+                    <p class="cardText">Artificial Intelligence class individual project. Creates a game of Obstruction for you to play versus an AI incorporating a depth-limited minimax and a minimax with alpha-beta pruning algorithm.</p>
+                    <a href="https://github.com/NicoRoberts/Obstruction" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                </div>
+
+                <!-- Portfolio item 8 -->
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/NicoRoberts/SlidingPuzzle" target="_blank">
+                        <img src="img/Puzzle.PNG" loading="lazy" alt>
+                        </a>
+                    </div>
+
+                    <h3 class="cardTitle">
+                        Sliding Puzzle
+                    </h3>
+
+                    <p class="cardTechnologies"><strong>Python</strong></p>
+                    <p class="cardText">Artificial Intelligence class individual project. Implements 4 search techniques: Breadth First Search, Depth First Search, Greedy Breadth First Search, and A-star algorithms to find solutions to the sliding puzzle game.</p>
+                    <a href="https://github.com/NicoRoberts/SlidingPuzzle" target="_blank">
+                        <button><strong>Click to View Project</strong></button>
+                    </a>
+                </div>
+
+                
+            </div>
+            
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <a href="mailto:nicolas.l.roberts@gmail.com" class="footer-link">nicolas.l.roberts@gmail.com</a>
+
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/NicoRoberts" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nicoroberts/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+        <!-- scripts -->
+        <script src="js/index.js"></script>
+    </body>
+</html>
